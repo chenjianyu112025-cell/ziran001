@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>潮流服装工厂展示</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a1a;
+            --accent-color: #000000;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        p.subtitle {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .btn-whatsapp {
+            display: block;
+            background-color: #25D366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 30px 0;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+            transition: transform 0.2s;
+        }
+
+        .btn-whatsapp:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: #999;
+            padding: 40px 0;
+        }
+
+        .label {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 2px 8px;
+            font-size: 0.7rem;
+            border-radius: 2px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>潮流服装加工</h1>
+        <p class="subtitle">专业品质 · 潮流设计 · 工厂直供</p>
+    </header>
+
+    <!-- 主图 -->
+    <div class="section">
+        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=80" alt="Trendy Apparel">
+    </div>
+
+    <a href="https://wa.me/8618859307737" class="btn-whatsapp">联系我们咨询 (WhatsApp)</a>
+
+    <!-- 产品展示 -->
+    <div class="section">
+        <div class="label">款式展示</div>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80" alt="Style 1">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=400&q=80" alt="Style 2">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=400&q=80" alt="Style 3">
+            <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=400&q=80" alt="Style 4">
+        </div>
+    </div>
+
+    <!-- 生产展示 -->
+    <div class="section">
+        <div class="label">工厂实力</div>
+        <img src="https://images.unsplash.com/photo-1558444479-c8f010b417c9?auto=format&fit=crop&w=800&q=80" alt="Factory Environment">
+        <p style="font-size: 0.9rem; color: #555;">先进生产流水线，严格质量控制，确保每一件服装的潮流感与高品质。</p>
+    </div>
+
+    <!-- 细节 -->
+    <div class="section">
+        <div class="label">细节工艺</div>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1582552938357-103ae7664401?auto=format&fit=crop&w=400&q=80" alt="Detail 1">
+            <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto=format&fit=crop&w=400&q=80" alt="Detail 2">
+        </div>
+    </div>
+
+    <a href="https://wa.me/8618859307737" class="btn-whatsapp">立即获取报价</a>
+
+    <footer>
+        <p>&copy; 2026 潮流服装工厂版权所有</p>
+    </footer>
+</div>
+
+</body>
+</html>
